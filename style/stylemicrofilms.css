@@ -1,0 +1,204 @@
+@font-face {
+font-family : 'Millimetre';
+src : url(../import/webfonts/Regular/'Millimetre-Regular_web.eot?') format('eot'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.otf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.ttf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff') format('woff'),
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff2') format('woff2'),
+
+url(../import/webfonts/Light/'Millimetre-Light_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.otf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.ttf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.woff') format('woff'),
+url(../import/webfonts/Light/'Millimetre-Light_web.woff2') format('woff2'),
+
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.otf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.ttf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff') format('woff'),
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff2') format('woff2'),
+
+url(../import/webfonts/Bold/'Millimetre-Bold_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.otf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.ttf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff') format('woff'),
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff2') format('woff2'),
+}
+
+
+nav{
+	animation: opacity1 5s ease;
+	z-index: 2;
+}
+
+#flèche{
+	margin-left: 90vw;
+	margin-top: 7vh;
+	transform: rotate(-90deg);
+	position: absolute;
+	z-index: 2;
+}
+
+@keyframes opacity1{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+body{
+	background-image: url(../import/4memex.gif);
+	background-size: 105%;
+	background-color: #0e0e0e;
+	background-repeat: no-repeat;
+    margin:0;
+	font-family: Millimetre;
+	z-index: 2;
+}
+
+
+section{
+	display: flex;
+	z-index: 2;
+}
+
+aside{
+	/*border: 1px solid white;*/
+	width: 45vw;
+	height: 80vh;
+	margin-top: 10vh;
+	animation: opacity1 5s ease;
+	z-index: 2;
+}
+
+article{
+	/*border: 1px solid white;*/
+	width: 50vw;
+	height: 85vh;
+	margin-top: 10vh;
+	z-index: 2;
+}
+
+#info{
+	width: 38vw;
+	height: 40vh;
+	margin-left: 5vw;
+	margin-top: 5vh;
+	border-radius: 25px;
+	background-color: #6eace9; /*bleu*/
+	position: absolute;
+	animation: opacity1 5s ease;
+	z-index: 2;
+}
+
+h4{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	width: 12vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 1.5vw;
+	padding-left: 1.7vw;	
+	border-radius: 20px;
+	position: relative;
+	margin-top: -2vw;
+	margin-left: -4vh;
+	background-color: #eae7b2; /*jaune*/
+	color: #6eace9;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+	z-index: 2;
+}
+
+p{
+	width: 30vw;
+	height: 22vh;
+	margin-left: 4.5vh;
+	margin-top: 6vh;
+	border-radius: 20px;
+	background-color: #eae7b2; /*jaune*/
+	padding-top: 1vw;
+	padding-bottom: 1.5vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	font-size: 1.3em;	
+	line-height: 1.2;
+	color: #6eace9;
+	font-weight: 400;
+	text-align: center;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+	z-index: 2;
+}
+
+
+
+.base {
+	/*background-image: url(../import/microfilm.png);*/
+   	/*border: 1px solid red;*/
+    position: relative;
+    height: 28vh;
+    width: 5.4vw;
+    cursor: pointer;
+    margin-left: 0.2vw;
+    margin-top: 0.2vh;
+    z-index: 2;
+
+}
+
+.tenu {
+    border: solid 5px #ccc;
+    z-index: 2;
+}
+
+#case1 {
+    height: 28.5vh;
+    width: 6vw;
+    margin-left: 2vw;
+    margin-top: 17vh;
+    z-index: 2;
+    /*border: solid 3px black;*/
+}
+
+#case2 {
+   height: 28.5vh;
+    width: 6vw;
+  	margin-left: 16vw;
+    margin-top: -42vh;
+    border: dashed 2px white;
+    z-index: 2;
+}
+
+.hovered {
+/*    background: lightgrey;
+    opacity: 0.3;*/
+    border-style: dashed;
+    z-index: 2;
+}
+
+
+#anim{
+/*	animation: bouton 3s ease; */
+	width: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+a{
+	z-index: 2
+}
+
+
+
+
+
+
+
+
+

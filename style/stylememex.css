@@ -1,0 +1,138 @@
+@font-face {
+font-family : 'Millimetre';
+src : url(../import/webfonts/Regular/'Millimetre-Regular_web.eot?') format('eot'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.otf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.ttf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff') format('woff'),
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff2') format('woff2'),
+
+url(../import/webfonts/Light/'Millimetre-Light_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.otf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.ttf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.woff') format('woff'),
+url(../import/webfonts/Light/'Millimetre-Light_web.woff2') format('woff2'),
+
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.otf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.ttf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff') format('woff'),
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff2') format('woff2'),
+
+url(../import/webfonts/Bold/'Millimetre-Bold_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.otf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.ttf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff') format('woff'),
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff2') format('woff2'),
+}
+
+@keyframes size{
+
+	0%{
+		width: 19.4vw;
+		height: 25.6vh;
+	}
+
+	10%{
+		width: 20.13vw;
+		height: 26.49vh;
+	}
+
+	20%{
+		width: 19.4vw;
+		height: 25.6vh;
+	}
+
+	30%{
+		width: 20.13vw;
+		height: 26.49vh;
+	}
+
+	40%{
+		width: 19.4vw;
+		height: 25.6vh;
+	}
+
+	50%{
+		width: 20.13vw;
+		height: 26.49vh;
+	}
+
+	60%{
+		width: 19.4vw;
+		height: 25.6vh;
+	}
+
+	70%{
+		width: 20.13vw;
+		height: 26.49vh;
+	}
+
+	80%{
+		width: 19.4vw;
+		height: 25.6vh;
+	}
+
+	90%{
+		width: 20.13vw;
+		height: 26.49vh;
+	}
+
+}
+
+
+body{
+	background-image: url(../import/memexbk.jpg);
+	background-size: 100%;
+	background-color: #c6b5d7;
+	background-repeat: no-repeat;
+    margin:0;
+}
+
+h3{
+	width: 80vw;
+	margin: auto;
+	margin-top: 5vh;
+	text-align: center;
+	font-size: 2.8em;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #eae7b2;
+	font-family: Millimetre;
+}
+
+div{ /*relative*/
+	display: block;
+	position: relative;
+/*	border: 1px solid white;*/
+	width: 17.4vw;
+	height: 23.3vh;
+	margin-left: 77vw;
+	margin-top: 56.3vh;
+	/*margin-left: 1110px;
+	margin-top: 446px;*/
+	align-items: center;
+	
+}
+
+
+img{
+	display: block;
+	position: relative;
+	width: 17.4vw;
+	height: 23.3vh;
+	/*animation: size 5s infinite; */
+}
+
+/*img:hover{
+	animation: none;
+	width: 20.13vw; 
+	height: 26.49vh;
+}
+
+*/
+
+
+
+
+
+

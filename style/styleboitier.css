@@ -1,0 +1,185 @@
+@font-face {
+font-family : 'Millimetre';
+src : url(../import/webfonts/Regular/'Millimetre-Regular_web.eot?') format('eot'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.otf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.ttf') format('truetype'), 
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff') format('woff'),
+url(../import/webfonts/Regular/'Millimetre-Regular_web.woff2') format('woff2'),
+
+url(../import/webfonts/Light/'Millimetre-Light_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.otf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.ttf') format('truetype'), 
+url(../import/webfonts/Light/'Millimetre-Light_web.woff') format('woff'),
+url(../import/webfonts/Light/'Millimetre-Light_web.woff2') format('woff2'),
+
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.otf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.ttf') format('truetype'), 
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff') format('woff'),
+url(../import/webfonts/Extrablack/'Millimetre-Extrablack_web.woff2') format('woff2'),
+
+url(../import/webfonts/Bold/'Millimetre-Bold_web.eot') format('embedded-opentype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.otf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.ttf') format('truetype'), 
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff') format('woff'),
+url(../import/webfonts/Bold/'Millimetre-Bold_web.woff2') format('woff2'),
+}
+
+nav #flèche{
+	animation: opacity1 3s ease;
+}
+
+
+#flèche{
+	margin-left: 2vw;
+	margin-top: 7vh;
+	transform: rotate(90deg);
+	position: absolute;
+	z-index: 2;
+}
+
+
+@keyframes opacity1{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+body{
+	background-image: url(../import/1memex.gif);
+	background-size: 100%;
+	background-color: #0e0e0e;
+	background-repeat: no-repeat;
+	font-family: Millimetre;
+}
+
+section{
+	display: flex;
+}
+
+aside{
+	/*border: 1px solid white;*/
+	width: 55vw;
+	height: 80vh;
+	margin-top: 10vh;
+}
+
+article{
+	/*border: 1px solid white;*/
+	width: 50vw;
+	height: 80vh;
+	margin-top: 10vh;
+}
+
+#info{
+	width: 33vw;
+	height: 40vh;
+
+	margin-left: 5vw;
+	margin-top: 5vh;
+	border-radius: 25px;
+	background-color: #6eace9; /*bleu*/
+	position: absolute;
+	animation: opacity1 3s ease; 
+	z-index: 2;
+}
+
+h4{
+	width: 20vw;
+	
+	text-transform: uppercase;
+	font-size: 1.5em;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-left: 2vw;	
+	border-radius: 20px;
+	position: relative;
+	margin-top: -2vw;
+	margin-left: -8vh;
+	background-color: #eae7b2; /*jaune*/
+	color: #6eace9;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+}
+
+p{
+	width: 25vw;
+	height: 23vh;
+	
+	margin-left: 4.5vh;
+	margin-top: 5vh;
+	border-radius: 20px;
+	background-color: #eae7b2; /*jaune*/
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	font-size: 1.2em;	
+	line-height: 1.2;
+	color: #6eace9;
+	font-weight: 400;
+	text-align: center;
+	box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.60);
+
+	-webkit-text-size-adjust: none;
+}
+
+#tablette{
+	position: absolute;
+	z-index: 4;
+}
+
+
+@keyframes bouton{
+	0%{
+		opacity: 0%;
+	}
+	50%{
+		opacity: 0%;
+	}
+	99%{
+		opacity: 0%;
+	}
+	100%{
+		opacity: 100%;
+	}
+}
+
+#clignottant{
+	animation: bouton 3s ease; 
+	width: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+#bouton{
+	/*border: 1px solid white;*/
+	position: absolute;
+	width: 20vw;
+	height: 20vh;
+	margin-top: 50vh;
+	margin-left: 10vw;
+	z-index: 4;
+}
+
+/*#push{
+	animation: bouton 3s ease; 
+	width: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}*/
+
+
+
+
+
